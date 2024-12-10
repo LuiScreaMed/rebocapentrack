@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "rebocap_port": 7690,
+    "opentrack_port": 4242,
+    "height": 170,
+    "tracking_mode": 1
+}
