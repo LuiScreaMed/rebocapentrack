@@ -1,5 +1,5 @@
 # rebocapentrack
-一个将rebocap用于opentrack的头部追踪方案。
+一个将 rebocap 用于 opentrack 的头部追踪方案。
 
 ## 实现方式
 
@@ -16,7 +16,8 @@
 - `tracking_mode` 追踪模式，0 为仅头部角度，1 为除头部角度外，根据头和腰的距离和腰的角度计算位置。
 
 > :warning: 注意
-由于 rebocap 本身是[方向传感器](https://doc.rebocap.com/zh_cn/tutorial/instroction_for_straps.html#%E8%B7%9F%E8%B8%AA%E5%99%A8%E5%AE%9A%E4%BD%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D)，所以不能直接得到位置信息，用于 opentrack 的位置信息需要通过腰到头部的角度和距离进行推算。
+> 
+> 由于 rebocap 本身是[方向传感器](https://doc.rebocap.com/zh_cn/tutorial/instroction_for_straps.html#%E8%B7%9F%E8%B8%AA%E5%99%A8%E5%AE%9A%E4%BD%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D)，所以不能直接得到位置信息，用于 opentrack 的位置信息需要通过腰到头部的角度和距离进行推算。
 
 ## 使用说明
 
